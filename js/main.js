@@ -1,12 +1,4 @@
-// var vacationSpots = ['Paris', 'New York', 'Barcelona'];
-
-// for (var i = vacationSpots.length - 1; i >= 2; i--) {
-//   console.log('I would love to visit ' + vacationSpots[i]);
-// }
-// VM345: 4 I would love to visit Barcelona
-
-
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function () {
   // Variables
   var items = document.querySelectorAll('.need-help-thumbnail');
   var loadMoreBtn = document.querySelector('.load_more_btn');
